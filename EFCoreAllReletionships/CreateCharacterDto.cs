@@ -1,6 +1,6 @@
 ﻿namespace EFCoreAllReletionships
 {
-    public class ChreateCharacterDto
+    public class CreateCharacterDto
     {
         public string Name { get; set; } = "Character";
         public string RpgClass { get; set; } = "Knight";
