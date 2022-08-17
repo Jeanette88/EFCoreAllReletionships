@@ -1,4 +1,6 @@
-﻿namespace EFCoreAllReletionships
+﻿using System.Text.Json.Serialization;
+
+namespace EFCoreAllReletionships
 {
     public class Character
     {

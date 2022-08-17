@@ -13,5 +13,15 @@ namespace EFCoreAllReletionships.Controllers
             _context = context;
         }
 
+        [HttpGet]
+        public async Task<ActionResult<List<Character>>> Get(int userId)
+        {
+            var characters = await _context.Characters
+                .Where(c => c.UserId == userId)
+                .ToListAsync();
+
+            return characters;
+        }
+
     }
 }
