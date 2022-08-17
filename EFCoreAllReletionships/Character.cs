@@ -12,7 +12,6 @@ namespace EFCoreAllReletionships
         public User User { get; set; }
         public int UserId { get; set; }
         public Weapon Weapon { get; set; }
-        public int WeaponId { get; set; }
 
     }
 }
