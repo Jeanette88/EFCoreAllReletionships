@@ -22,6 +22,7 @@ namespace EFCoreAllReletionships.Controllers
 
             return characters;
         }
+       
 
     }
 }
